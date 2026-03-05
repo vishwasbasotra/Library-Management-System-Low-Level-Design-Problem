@@ -15,5 +15,7 @@ public class LendingService {
         }
     }
 
-    public void returnBook(Book b) { resService.onBookAvailable(b); }
+    public void returnBook(Book b) {
+        resService.onBookAvailable(b);
+    }
 }

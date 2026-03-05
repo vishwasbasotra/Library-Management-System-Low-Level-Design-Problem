@@ -10,13 +10,27 @@ public class Book {
     }
 
     // Getters and Setters
-    public String getIsbn() { return isbn; }
-    public String getTitle() { return title; }
-    public String getAuthor() { return author; }
-    public String getGenre() { return genre; }
-    public BookStatus getStatus() { return status; }
-    public void setStatus(BookStatus status) { this.status = status; }
+    public String getIsbn() {
+        return isbn;
+    }
+    public String getTitle() {
+        return title;
+    }
+    public String getAuthor() {
+        return author;
+    }
+    public String getGenre() {
+        return genre;
+    }
+    public BookStatus getStatus() {
+        return status;
+    }
+    public void setStatus(BookStatus status) {
+        this.status = status;
+    }
 
     @Override
-    public String toString() { return "[" + isbn + "] " + title + " (" + status + ")"; }
+    public String toString() {
+        return "[" + isbn + "] " + title + " (" + status + ")";
+    }
 }
