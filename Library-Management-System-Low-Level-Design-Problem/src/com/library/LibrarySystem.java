@@ -27,11 +27,17 @@ public class LibrarySystem {
         Book b4 = new Book("104", "Dune", "Frank Herbert", "Sci-Fi");
         Book b5 = new Book("105", "Foundation", "Isaac Asimov", "Sci-Fi");
 
-        inventory.addBook(b1); inventory.addBook(b2); inventory.addBook(b3);
-        inventory.addBook(b4); inventory.addBook(b5);
+        inventory.addBook(b1);
+        inventory.addBook(b2);
+        inventory.addBook(b3);
+        inventory.addBook(b4);
+        inventory.addBook(b5);
 
-        centralBranch.addBook(b1); centralBranch.addBook(b3);
-        techBranch.addBook(b2); techBranch.addBook(b4); techBranch.addBook(b5);
+        centralBranch.addBook(b1);
+        centralBranch.addBook(b3);
+        techBranch.addBook(b2); 
+        techBranch.addBook(b4);
+        techBranch.addBook(b5);
 
         // 4. Create Patrons via Factory
         Patron alice = PatronFactory.create("STUDENT", "S1", "Alice");
